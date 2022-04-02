@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <link rel="stylesheet" href="pokestilos.css">
+    
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap" rel="stylesheet">
+    <script src="./funcpokemon.js" type="text/javascript" defer></script>
+    
+</head>
+<h1><img src="poketitulo.png" widht="70" height="70"></h1>
+<body>
+
+    <div class="caratula">
+            <img src="estructura.png" width="800" height="500" class="estruc" alt="dex">
+        </div>
+        
+                
+            <div data-pokemon-imagen class="pokefoto">
+                <img src="./pokebola.png" width="150" height="150" id="pokePic" alt="pokemon">
+
+            </div>
+            <div data-poke-name class="pokenombre"></div>
+            <div data-poke-disName class="disName"></div>
+            <div data-poke-id class="pokeId"></div>
+            <div data-poke-type class="pokeType"></div>
+            <div data-poke-type2 class="pokeType-2"></div>
+            <div data-poke-tipo class="poketipo"></div>
+
+            <div data-poke-habilidades class="pokeHab" id="hbsPoke" src="">
+                <div class="stat0"></div>
+                <div class="stat1"></div>
+                <div class="stat2"></div>
+                <div class="stat3"></div>
+                <div class="menu" id="new">
+                    <div class="menu1">
+                    </div>
+                    <div class="menu2"></div>
+                    <div class="menu3"></div>
+                    <div class="menu4"></div>
+                    <div class="menu5"></div>
+                    <div class="menu6"></div>
+                </div>
+
+
+                <div class="menuz">
+                    <div class="menua"></div>
+                    <div class="menub"></div>
+                    <div class="menuc"></div>
+                    <div class="menud"></div>
+                    <div class="menue"></div>
+                    <div class="menuf"></div>
+                </div>
+                        
+            </div>
+
+            <div data-poke-stats id="poke-menu">
+                <p>Hello, PokeTrainer! Here you can look up for your favourite pokemon's info.</p>
+                    <img src="./entrenador.gif">
+                   
+            </div>
+            
+            <!--Decoraciones-->
+
+            <div class="cuadrado1"></div>
+            <div class="cuadrado2"></div>
+            <div class="cuadrado3"></div>
+            <div class="cuadrado4"></div>
+            <div class="cuadrado5"></div>
+            <div class="cuadrado6"></div>
+            
+            
+            
+            </div>
+
+
+            
+                <input type="text" placeholder="Pokémon" id="pokeName" name="pokeName" class="pokenombre">
+                <button class="poketipo" onclick="fetchPokemon()">Seleccionar pokemon</button>
+
+                
+                <button class="botona" onclick="pokmStats()" target="stats.html"><a class="botonEi" href="stats.html">A</a></button>
+                <button class="btn">B</button>
+           
+
+                <footer>
+                  
+   
+                </footer>
+</body>
+</html>

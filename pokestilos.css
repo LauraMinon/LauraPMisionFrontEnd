@@ -1,0 +1,451 @@
+*{
+    font-family: 'Fredoka', sans-serif;
+    font-weight: bold;
+}
+body{
+    margin:0;
+    background-image: url('./wall1.jpg');
+    background-repeat: no-repeat;
+}
+
+
+
+.caratula{position: absolute;
+    top:100px;
+left:250px;}
+
+h1{
+    position: absolute;
+    top: 50px;
+    left: 690px;
+}
+
+.pokefoto{
+    position: absolute;
+    top:270px;
+    left: 290px;
+width: 312px;
+height: 200px;
+background: linear-gradient(0deg, #a8edea 0%, #fed6e3 100%) ;}
+
+#pokePic{
+    position: absolute;
+    top: 15px;
+    left: 80px;
+}
+
+                    .pokenombre{
+                        position: absolute;
+                top:250px;
+                left: 370px;
+                width: 150px;
+                height: 20px;
+                background-color: #fff;
+                    }
+                    
+
+
+.disName{
+position: absolute;
+top:280px;
+left: 700px;
+width: 150px;
+height: 20px;
+background-color: #fff;
+    }
+
+    .pokeId{
+        position: absolute;
+top:280px;
+left: 790px;
+width: 70px;
+height: 20px;
+background-color: rgb(139, 233, 16);
+text-align: center;
+    }
+
+
+
+    
+    
+
+
+                    
+                    .pokeType{position: absolute;
+                        top:350px;
+                        left: 725px;
+                    width: 65px;
+                    height: 20px;
+                background-color: rgb(181, 230, 67);
+                border-radius: 19px;
+                z-index: 1;
+                text-align: center;
+                border-style: solid;
+                border-color: black;
+                border-width: medium;
+
+                    }
+                    .pokeType-2{position: absolute;
+                        top:350px;
+                        left: 810px;
+                    width: 65px;
+                    height: 20px;
+                background-color: rgb(230, 67, 181);
+                border-radius: 19px;
+                text-align: center;
+                z-index: 1;
+                border-style: solid;
+                border-color: black;
+                border-width: medium;
+
+                    }
+
+
+                        .poketipo{
+                            position: absolute;
+                top:450px;
+                left: 370px;
+                width: 150px;
+                height: 20px;
+                background-color: rgb(76, 240, 172);
+                border-radius: 20px;
+                        }
+
+                                .pokeHab{ 
+                                position: absolute;
+                                top:350px;
+                                left: 705px;
+                            width: 312px;
+                            height: 200px;
+                        background: linear-gradient(0deg, #a8edea 0%, #fed6e3 100%);
+                        border-style: solid;
+                        border-color: black;
+                        border-width: medium;
+                                        }
+                                        .stat0{
+                                            position: absolute;
+                                            top:40px;
+                                            left: 15px;
+                                            width: 150px;
+                                            height: 20px;
+                                            background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+                                            z-index: 1;
+                                            text-align: center;
+                                            border-radius: 15px;
+                                            border-style: solid;
+                                            border-color: black;
+                                            border-width: medium;
+                                        }
+                                        
+.stat1{
+    position: absolute;
+    top:70px;
+    left: 15px;
+    width: 150px;
+    height: 20px;
+    background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+    z-index: 1;
+    text-align: center;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: black;
+    border-width: medium;}
+
+
+
+
+
+    .stat2{
+        position: absolute;
+    top:100px;
+    left: 15px;
+    width: 150px;
+    height: 20px;
+    background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+    z-index: 1;
+    text-align: center;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: black;
+    border-width: medium;
+    color: black;
+
+    }
+
+    .stat3{
+        position: absolute;
+    top:130px;
+    left: 15px;
+    width: 150px;
+    height: 20px;
+    background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+    z-index: 1;
+    text-align: center;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: black;
+    border-width: medium;
+    color: black;
+    }
+
+
+
+
+
+
+
+                                        
+#poke-menu{
+    position: absolute;
+    top:135px;
+    left: 40px;
+    width: 120px;
+    height: 270px;
+    background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+    z-index: 1;
+    text-align: center;
+    color: black;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: black;
+    border-width: medium;
+
+}
+    
+.menu{
+    position: absolute;
+    top:5px;
+    left: 190px;
+    width: 100px;
+    height: 180px;
+    background: none;
+    z-index: 1;
+    text-align: center;
+    font-size: 12px ;
+    border-radius: 15px;
+    color: black;
+}
+
+.menu1{                                                                           
+    position: absolute;
+    top:5px;
+    left: 5px;
+    width: 40px;
+    height: 40px;
+    z-index: 1;
+    text-align: center;
+    font-size: 12px ;
+    border-radius: 15px;
+     color: black;
+}
+
+.menuz{
+    position: relative;
+}
+                                .menua{position: absolute;
+                                    top:29px;
+                                    left: 205px;
+                                    width: 20px;
+                                    height: 20px;;
+                                    z-index: 1;
+                                    text-align: center;
+                                    font-size: 10px ;
+                                    color: black;
+                                    
+                                }
+                                .menub{position: absolute;
+                                    top:29px;
+                                    left: 255px;
+                                    width: 20px;
+                                    height: 20px;
+                                    z-index: 1;
+                                    text-align: center;
+                                    font-size: 10px ;
+                                    color: black;
+                                    
+                                }
+
+                                .menuc{position: absolute;
+                                    top:80px;
+                                    left: 205px;
+                                    width: 20px;
+                                    height: 20px;
+                                    z-index: 1;
+                                    text-align: center;
+                                    font-size: 10px ;
+                                    color: black;
+                                    
+                                }
+
+                                .menud{position: absolute;
+                                    top:139px;
+                                    left: 205px;
+                                    width: 20px;
+                                    height: 20px;
+                                    z-index: 1;
+                                    text-align: center;
+                                    font-size: 10px ;
+                                    color: black;
+                                    
+                                }
+                                .menue{position: absolute;
+                                    top:139px;
+                                    left: 255px;
+                                    width: 20px;
+                                    height: 20px;
+                                    z-index: 1;
+                                    text-align: center;
+                                    font-size: 10px ;
+                                    color: black;
+                                    
+                                }
+                                .menuf{position: absolute;
+                                    top:80px;
+                                    left: 255px;
+                                    width: 20px;
+                                    height: 20px;
+                                    z-index: 1;
+                                    text-align: center;
+                                    font-size: 10px ;
+                                    color: black;
+                                    
+                                }
+
+                            
+
+.menu2{
+    position: absolute;
+    top:5px;
+    left: 55px;
+    width: 40px;
+    height: 40px;
+    z-index: 1;
+    text-align: center;
+    font-size: 12px ;
+    border-radius: 15px;
+    color: black;
+}
+
+.menu3{
+    position: absolute;
+    top:55px;
+    left: 5px;
+    width: 40px;
+    height: 40px;
+    z-index: 1;
+    text-align: center;
+    font-size: 12px ;
+    border-radius: 15px;
+    color: black;
+}
+.menu4{
+    position: absolute;
+    top:105px;
+    left: 5px;
+    width: 40px;
+    height: 40px;
+    z-index: 1;
+    text-align: center;
+    font-size: 12px ;
+    border-radius: 15px;
+    color: black;
+}
+
+.menu5{
+    position: absolute;
+    top: 105px;
+    left: 55px;
+    width: 40px;
+    height: 40px;
+    z-index: 1;
+    text-align: center;
+    font-size: 12px ;
+    border-radius: 15px;
+    color: black;
+}
+.menu6{
+    position: absolute;
+    top:55px;
+    left: 55px;
+    width: 40px;
+    height: 40px;
+    z-index: 1;
+    text-align: center;
+    font-size: 12px ;
+    border-radius: 15px;
+    color: black;
+}
+/*Esta sección comprende la sección de decoraciones*/
+
+                                                .cuadrado1{
+                                                    position: absolute;
+                                                    top: 500px;
+                                                    left:370px;
+                                                    width: 20px;
+                                                    height: 20px;
+                                                    background-color: black;
+                                                }
+
+                                                        .cuadrado2{
+                                                            position: absolute;
+                                                            top: 520px;
+                                                            left:370px;
+                                                            width: 20px;
+                                                            height: 20px;
+                                                            background-color: black;
+                                                            }
+
+
+                                                            .cuadrado3{
+                                                                position: absolute;
+                                                                top: 540px;
+                                                                left:370px;
+                                                                width: 20px;
+                                                                height: 20px;
+                                                                background-color: black;
+                                                            }
+
+                                                            .cuadrado4{
+                                                                position: absolute;
+                                                                top: 520px;
+                                                                left:350px;
+                                                                width: 20px;
+                                                                height: 20px;
+                                                                background-color: black;
+                                                            }
+
+                                                            .cuadrado5{
+                                                                position: absolute;
+                                                                top: 520px;
+                                                                left:390px;
+                                                                width: 20px;
+                                                                height: 20px;
+                                                                background-color: black;}
+
+                                                                                .botona {
+                                                                                    position: absolute;
+                                                                                    top: 537px;
+                                                                                    left:450px;
+                                                                                    width: 35px;
+                                                                                    height: 35px;
+                                                                                    border-radius: 100%;
+                                                                                    background-color: black;
+                                                                                text-align: center;
+                                                                            color: #fff;
+                                                                                        }
+
+                                                                                        .botonEi{
+                                                                                            text-decoration: none;
+                                                                                            color: #fff;
+                                                                                        }
+
+                                                                                    .btn {position: absolute;
+                                                                                        top: 500px;
+                                                                                        left:495px;
+                                                                                        width: 35px;
+                                                                                        height: 35px;
+                                                                                        border-radius: 100%;
+                                                                                        background-color: black;
+                                                                                    text-align: center
+                                                                                    ; color: #fff;}
+                

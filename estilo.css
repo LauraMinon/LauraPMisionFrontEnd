@@ -1,0 +1,584 @@
+@import url(https://fonts.googleapis.com/css?family=Fredoka:300,regular,500,600,700);
+*{font-family: fredoka ,Arial, Helvetica, sans-serif;
+margin:0;
+box-sizing: border-box;}
+
+body{padding: 90px 20px;}
+
+    .header{background-color: #065A60;
+    height: 80px;
+    width: 100%;
+    position:fixed;
+    top:0; 
+    left:0;
+z-index: 3;}
+
+            .nav{
+                display:flex;
+            justify-content: right;
+        max-width: 992px;
+    margin: 0 auto;}
+
+                .nav-menu-link{
+                    color: white; 
+                    text-decoration: none;
+                    padding: 8px 12px;
+                    border-radius: 6px;
+                }
+                .nav-menu-link:hover{
+                    background-color: beige;
+                    transition: 0.5s;
+                }
+                .nav-menu{
+                    display: flex;
+                    margin-right: 100px;
+                    list-style: none;
+                }
+
+                .nav-menu-item{
+                    width: max-content;
+                    font-size: 18px;
+                    margin: 0 10px;
+                    line-height: 80px
+                    
+                }
+
+                .nav-toggle{
+                    background-color: chartreuse;
+                    color: #272640;
+                    border: none;
+                    font-size: 30px;
+                    padding: 0 30px;
+                    line-height: 60px;
+                    
+                    display:none;
+
+                }
+
+    .rectangulo{ width: 580px ;
+            height: 800px;
+        background: #065A60;
+        
+        position: absolute; 
+        top: 80px; 
+        left: 690px; 
+        opacity: 0.5;}
+
+        .imagvac{ 
+            
+        position:absolute;
+        top: 100px;
+        left: 725px;
+        width:250px;
+            height: 450px;
+    z-index: 1;}
+        
+        p {font: #272640;}
+
+        .texto1{width: 250px; height: 250px;
+        position: absolute; top: 1100px; left: 70px; 
+        text-align: center;
+    }
+
+        .texto2{width: 250px; height: 250px;
+        position: absolute;
+        top: 1100px; 
+        left: 390px; 
+        text-align: center;
+    }
+
+    .texto3{width: 250px; 
+        height: 250px;
+        position: absolute; 
+        top: 1100px; 
+        left: 690px; 
+        text-align: center;}
+
+        .texto4{width: 250px; 
+            height: 250px;
+            position: absolute; 
+            top: 1100px; 
+            left: 970px; 
+            text-align: center;}
+
+
+    .infolink{width: 700px ;
+        height: 800px;
+    position: absolute; top: 600px; left: 0px; 
+    font-size: .7cm; font-weight: bold;}
+
+    .ungif{position:absolute; top: 69px; left:290px}
+
+    .imagvacc{position: absolute; top:125px; left:590px;}
+
+    .caja{background-color: aliceblue;position:absolute;
+    top:650px;
+    left:100px;}
+
+    .boton a{
+        padding: 10px 15px 10px;
+        position: absolute;
+        top:100px;
+        left: 30px;
+        text-align: center;
+        text-decoration: none;
+        background-color: rgb(13, 90, 73);
+        color: #fff;
+    }
+
+    .textoa{width: 350px; height: 250px;
+        position: absolute; top: 360px; left: 100px; 
+        text-align: center;
+    } 
+
+    .fig1{width: 250px; height: 350px;
+        position: absolute; top: 500px; left: 20px; 
+        text-align: center;}
+
+    .fig2{width: 250px; height: 350px;
+        position: absolute; top: 500px; left: 300px; 
+        text-align: center;}
+
+
+        .algo{
+            position:absolute;
+            top: 930px;
+            left:70px;
+            margin:0;
+            width:1075px;
+            height: 143px;
+            background-image: url(ban1.png);
+            opacity: 0.19;}
+
+
+
+    @media (max-width: 768px){
+    body {
+        background-color: black;}}
+
+
+
+
+        .rectangulo2{ width: 580px ;
+            height: 800px;
+        background: #065A60;
+        
+        position: absolute; 
+        top: 1380px; 
+        left: 0; 
+        opacity: 0.5;}
+
+        .img3{ 
+            position: absolute;
+        top:1440px;
+         left: 40px;}
+
+        
+        .img4{ 
+            position: absolute;
+        top:1890px;
+        left: 40px;}
+
+
+        .encabezado2{
+            position: absolute;
+            top:1380px;
+            left:600px;
+            
+        }
+        
+            div.lista{
+                position: absolute;
+            width: 400px;
+            height: 150px;
+            background-color: #065A60;
+            top:1450px;
+            left:600px;
+            text-align: center;
+        }
+
+        div.sub{
+            width: 400px;
+            min-height: 150px;
+            background-color: #065A60;
+            border-color: #272640;
+            border-bottom: 2px;
+            text-align: center;
+            color: #fff;
+        }
+
+        div.apartado{
+            width: 350px;
+            height:150px;
+            border-color: aliceblue;
+            text-align: center;
+        }
+
+
+        p.titulo1{
+            margin: 13px;
+            text-align: center;
+            
+        }
+
+        div.info{
+            width: 600px;
+            height: 0;
+            background-color: #fff;
+            text-align: center;
+            overflow: hidden;
+            transition-delay:2s;
+        }
+
+        p.info{ 
+            margin:20px;
+            text-align: center;
+            color: #272640;
+        }
+
+        div.sub:hover div.info{
+            cursor: pointer;
+            height: 120px;
+        transition: 3s;}
+
+
+        #encabezadon{
+            position: absolute;
+            top: 2280px;
+            left:750px;
+            
+        }
+
+        .rectangulo3{ width: 580px ;
+            height: 800px;
+        background: #065A60;
+        
+        position: absolute; 
+        top: 2320px; 
+        left: 0; 
+        opacity: 0.5;}
+
+        img.insert{
+            position: absolute;
+            top: 2400px;
+            left: 100px;
+        }
+
+        p.contact0{
+        position: absolute;
+        top: 2400px;
+        left: 690px;
+        text-align: center;
+        width: 400px;
+        height: 300px;
+        }
+
+        .containercontact1{
+            background-color: #fff;
+           
+            position: absolute;
+            top: 2500px;
+            left: 680px;
+            text-align: center;
+            width: 200px;
+            height: 200px;
+        }
+
+
+        .containercontact2{
+            background-color: rgb(114, 243, 215);
+            position: absolute;
+            top: 2500px;
+            left: 900px;
+            text-align: center;
+            width: 200px;
+            height: 200px;
+        }
+
+        .containercontact3{
+            background-color: rgb(114, 243, 215);
+            position: absolute;
+            top: 2720px;
+            left: 680px;
+            text-align: center;
+            width: 200px;
+            height: 200px;
+        }
+
+        .containercontact4{
+            background-color: #fff;
+            position: absolute;
+            top: 2720px;
+            left: 900px;
+            text-align: center;
+            width: 200px;
+            height: 200px;
+        }
+
+
+       
+
+
+            .tel{
+                width: 40px;
+                height: 40px;
+                position: absolute;
+                top:20px;
+                left:30px;
+                color: #065A60;
+                background-color: gray;
+                opacity: 0.6;
+                border-radius: 15px;
+                }
+    
+                .inttel{
+                    width: 90px;
+                height: 40px;
+                opacity:1;
+                position: absolute;
+                top:20px;
+                left:90px;
+                color: black;
+                }
+    
+                .botllam{
+                padding: 15px 32px;
+                position: absolute;
+                top:90px;
+                left:40px;
+                color: #fff ;
+                background-color: rgb(15, 85, 76);
+                text-decoration: none;
+                text-align: center;
+                border-radius: 16px;
+                font-size: large;
+                }
+                    
+                .botllam:hover{
+                    cursor: pointer;
+                    background-color: beige;
+    
+                }
+
+
+
+                .chat1{
+                    width: 40px;
+                    height: 40px;
+                    position: absolute;
+                    top:25px;
+                    left:100px;
+                    color: black;
+                    border-radius: 15px;
+                    }
+        
+                    .chat2{
+                    width: 40px;
+                    height: 40px;
+                    color: #065A60;
+                    background-color: gray;
+                    opacity: 0.6;
+                    border-radius: 15px;
+                    position: absolute;
+                    top:20px;
+                    left:20px;
+                    color: black;
+                    }
+        
+                    .botchat{
+                    padding: 15px 32px;
+                    position: absolute;
+                    top:90px;
+                    left:40px;
+                    color: #fff ;
+                    background-color: rgb(15, 85, 76);
+                    text-decoration: none;
+                    text-align: center;
+                    border-radius: 16px;
+                    font-size: large;
+                    }
+                        
+                    .botchat:hover{
+                        cursor: pointer;
+                        background-color: beige;
+        
+                    }
+
+
+
+                    .vid2{
+                        width: 40px;
+                        height: 40px;
+                        position: absolute;
+                        top:20px;
+                        left:30px;
+                        color: #065A60;
+                        background-color: gray;
+                        opacity: 0.6;
+                        border-radius: 15px;
+                        }
+            
+                        .vid{
+                            width: 90px;
+                        height: 40px;
+                        opacity:1;
+                        position: absolute;
+                        top:20px;
+                        left:90px;
+                        color: black;
+                        }
+            
+                        .botvid{
+                        padding: 15px 32px;
+                        position: absolute;
+                        top:90px;
+                        left:10px;
+                        color: #fff ;
+                        background-color: rgb(15, 85, 76);
+                        text-decoration: none;
+                        text-align: center;
+                        border-radius: 16px;
+                        font-size: large;
+                        }
+                            
+                        .botvid:hover{
+                            cursor: pointer;
+                            background-color: beige;
+            
+                        }
+
+
+
+                        .msj2{
+                            width: 40px;
+                            height: 40px;
+                            position: absolute;
+                            top:20px;
+                            left:30px;
+                            color: #065A60;
+                            background-color: gray;
+                            opacity: 0.6;
+                            border-radius: 15px;
+                            }
+                
+                            .msj{
+                                width: 90px;
+                            height: 40px;
+                            opacity:1;
+                            position: absolute;
+                            top:20px;
+                            left:90px;
+                            color: black;
+                            }
+                
+                            .botmsj{
+                            padding: 15px 32px;
+                            position: absolute;
+                            top:90px;
+                            left:40px;
+                            color: #fff ;
+                            background-color: rgb(15, 85, 76);
+                            text-decoration: none;
+                            text-align: center;
+                            border-radius: 16px;
+                            font-size: large;
+                            }
+                                
+                            .botmsj:hover{
+                                cursor: pointer;
+                                background-color: beige;
+                
+                            }
+
+
+
+                            .containfoot{ 
+                                display: flex;
+                                background-color: black;
+                                position: absolute;
+                                top: 3100px;
+                                left: 0;
+                                text-align: center;
+                                width: 1260px;
+                                height: 200px;
+                                }
+
+                                .enc{
+                                    position: absolute;
+                                    top: 3140px;
+                                    left: 125px;
+                                    color: #fff;
+                                    font-size: 20px;
+                                }
+
+                                .footlist1{
+                                    float: left;
+                                    position: absolute;
+                                    padding: 10px 30px 20px 10px;
+                                    top: 60px;
+                                    left: 50px;
+                                    text-decoration: none;
+                                    font-size: 15px;
+                                    display: flex;
+                                   
+                                    
+                                }
+
+                                .fta {
+                                    text-decoration: none;
+                                    list-style: none;
+                                    
+                                    color: #fff;
+                                }
+
+                    
+
+                                .enc2{
+                                    position: absolute;
+                                    top: 3140px;
+                                    left: 300px;
+                                    color: #fff;
+                                    font-size: 20px;
+                                }
+                        
+                    
+                            .logft{
+                                position: absolute;
+                                top: 0px;
+                                left: 550px;
+                                color: #fff;
+                                font-weight: bold;
+                                font-size: .6cm;
+                            }
+                    
+                            .footlist2{
+                                float: left;
+                                position: absolute;
+                                padding: 10px 30px 20px 10px;
+                                top: 60px;
+                                left: 250px;
+                                text-decoration: none;
+                                font-size: 15px;
+                                display: flex;
+                               
+                                
+                            }
+
+                            .fta2 {
+                                text-decoration: none;
+                                list-style: none;
+                                
+                                color: #fff;
+                            }
+
+
+                            .ftpar{
+                                position: absolute;
+                                width: 300px;
+                                height: 100px;
+                                top: 3150px;
+                                left: 550px;
+                                color: #fff;
+                                text-align: justify;
+
+                            }

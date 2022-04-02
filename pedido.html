@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos Stellar Cakes</title>
+        
+        <style>
+            body{background-image: url(./fill.png); }
+
+            *{font-family: monospace, Arial, Helvetica, sans-serif; color: black}
+
+            form{background-image: url('./fill2.png') ; margin: 0 auto; padding: 2px
+            border-radius 10px;}
+
+            .astro{ position: absolute; top: 60px; left: 450px}
+
+            .btn{
+                background-color: #A2E3C4;
+                border: none;
+                color: rgb(10, 10, 10);
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline;
+                font-size: 16px;}
+                    
+
+
+
+                body,html{
+                margin: 0;
+                }
+
+                    ul {
+                    padding: 15px 32px;
+                    width: 100%;
+                    }
+
+                    li {
+                    display: inline;
+                    }
+
+                    a {
+                    outline-color: #eaedf1;
+                    text-decoration: none;
+                    display: inline-block;
+                    width: 12.5%;
+                    margin-right: 0.625%;
+                    text-align: center;
+                    line-height: 3;
+                    color: black;
+                    }
+
+                    li:last-child a {
+                    margin-right: 0;
+                    }
+
+                    a:link, a:visited, a:focus {
+                    background: #A2E3C4;
+                    }
+
+                    a:hover {
+                    background: #FF88DC;
+                    }
+
+                    a:active {
+                    background: #7796CB;
+                    color: white;
+                    }
+
+                    
+
+
+        </style>
+</head>
+<body>
+       
+
+
+    <h1 text-align="center">Tripulante, aquí puedes realizar tu pedido.</h1>
+    <br>
+    <div class="astro" style="text-align: right;">
+        <img src="traje.png">
+    </div>
+    <form class="pedido" action="algo.js" method="post">
+        <fieldset>
+        <legend>Pide tu pastel intergaláctico</legend>
+        <br>
+
+        <div>
+        <label class="formu" for="Nombre">Por favor proporciona tu nombre</label>
+        <br>
+        <input type="text" id="Nombre" name="Nombre" placeholder="Nombre">
+        <br><br>
+        </div>
+
+        <div>
+            <label for="teléfono">Proporciona un número telefónico de contacto</label>
+            <br>
+            <input type="tel" id="teléfono" name="teléfono" placeholder="Número">
+            <br><br>
+            </div>
+
+        <div>
+            <label for="Dirección">Indica la dirección de entrega</label> <br>
+            <input type="text" id="Dirección" name="Dirección" placeholder="Dirección">
+            <br><br>
+        </div>
+
+                <div>
+                <label for="fecha">Indica la fecha de entrega</label><br>
+                <input type="date" id="fecha" name="fecha" placeholder="Indicar fecha">
+                <br><br>
+
+                    <label for="correo">Introduce tu e-mail</label><br>
+                    <input type="email" id="correo" placeholder="e-mail">
+                    <br><br>
+                </div>
+
+                <div>
+                    <label>Indica si eres alérgico a algún ingrediente</label><br>
+                    
+                        <br>
+                    <textarea placeholder="Soy alérgico a"></textarea>
+
+
+
+                </div>
+            <h2>Elige tu pastel y decoraciones</h2>
+            <h3>Pasteles</h3>
+
+            <p>Vía Vanilla</p>
+            <label for="cuantosv">¿Cuántos pasteles?</label><br>
+            <input type="number" id="cuantosv" name="cuantosv" placeholder="Cantidad"><br>
+            <br>
+            <label for="Chico">Chico</label>
+            <input type="radio" name="tamaño" value="Chico">
+            <br>
+
+            <label for="Mediano">Mediano</label>
+            <input type="radio" name="tamaño" value="Mediano">
+            <br>
+
+            <label for="Grande">Grande</label>
+            <input type="radio" name="tamaño" value="Grande">
+            <br>
+
+            <p>BanAnakin</p>
+            <label for="cuantosb">¿Cuántos pasteles?</label><br>
+            <input type="number" id="cuantosb" name="cuantosb" placeholder="Cantidad"><br>
+            <br>
+            <label for="Chico">Chico</label>
+            <input type="radio" name="tamaño" value="Chico">
+            <br>
+
+            <label for="Mediano">Mediano</label>
+            <input type="radio" name="tamaño" value="Mediano">
+            <br>
+
+            <label for="Grande">Grande</label>
+            <input type="radio" name="tamaño" value="Grande">
+            <br>
+
+            <p>Spokys</p>
+            <label for="cuantoss">¿Cuántos pasteles?</label><br>
+            <input type="number" id="cuantoss" name="cuantoss" placeholder="Cantidad"><br>
+            <br>
+            <label for="Chico">Chico</label>
+            <input type="radio" name="tamaño" value="Chico">
+            <br>
+
+            <label for="Mediano">Mediano</label>
+            <input type="radio" name="tamaño" value="Mediano">
+            <br>
+
+            <label for="Grande">Grande</label>
+            <input type="radio" name="tamaño" value="Grande">
+            <br>
+
+            <p>Vade-ron</p>
+            <label for="cuantosr">¿Cuántos pasteles?</label><br>
+            <input type="number" id="cuantosr" name="cuantosr" placeholder="Cantidad"><br>
+            <br>
+            <label for="Chico">Chico</label>
+            <input type="radio" name="tamaño" value="Chico">
+            <br>
+
+            <label for="Mediano">Mediano</label>
+            <input type="radio" name="tamaño" value="Mediano">
+            <br>
+
+            <label for="Grande">Grande</label>
+            <input type="radio" name="tamaño" value="Grande">
+            <br>
+
+            <h3>Decoraciones</h3> <br>
+            <label for="figuras">Figuras de Chocolate</label>
+            <input type="number" name="figuras" placeholder="Cantidad"><br>
+            <br>
+                
+            <label for="figurasf">Figuras de fondant</label>
+            <input type="number" name="figurasf" placeholder="Cantidad"><br>
+            <br>
+
+            <label for="chispas">Chispas de colores</label>
+            <input type="number" name="chispas" placeholder="Gramos"><br>
+            <br>
+
+            <label for="chispasch">Chispas de chocolate</label>
+            <input type="number" name="chispasch" placeholder="Gramos"><br>
+            <br>
+
+            <label for="listones">Listones de caramelo</label>
+            <input type="number" name="listones" placeholder="Cantidad"><br>
+            <br>
+
+            <label for="algodón">Algodón de azúcar</label>
+            <input type="number" name="algodón" placeholder="Piezas"><br>
+            <br>
+
+            <label for="letrero">Letrero comestible(personalizado)</label>
+            <input type="number" name="letrero" placeholder="Cantidad"><br>
+            <input type="text" name="letrero" placeholder="Pon tu mensaje"><br>
+            <br>
+
+                <p>Color del fondant</p>
+                    <label for="colorf">Indica el color</label>
+                    <input type="color" id="colorf" name="colorf"><br>
+                    <br>
+
+
+                <input  class="btn" type="reset" value="Limpiar">
+                <button class="btn" type="submit" formtarget="_blank">Enviar</button>
+                
+                <a href="./stellarcake.html">
+                    <input type="button" value="Ir al menú">
+                </a> 
+        </fieldset>
+    </form>
+
+    
+</body>
+</html>
